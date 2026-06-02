@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inova Vida Saúde - Telemedicina Acadêmica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>InovaVida<span>Saúde</span></h1>
+        </div>
+        <nav>
+            <a href="#proposta">Proposta</a>
+            <a href="#diferenciais">Diferenciais</a>
+            <a href="#agendamento">Simulador</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Saúde Inteligente para um Futuro Melhor</h2>
+        <p>Uma plataforma integrada de saúde digital e atendimento presencial focada em democratizar o acesso médico em Oriximiná e região, reduzindo distâncias e o tempo de espera.</p>
+    </section>
+
+    <div class="container" id="proposta">
+        <h3>Como Funciona a Solução</h3>
+        <div class="grid-solucoes">
+            <div class="card">
+                <h4>Atendimento Híbrido</h4>
+                <p>Consultas por videochamada direto no celular ou atendimento presencial em clínicas parceiras locais.</p>
+            </div>
+            <div class="card">
+                <h4>Inclusão Digital</h4>
+                <p>Orientação e suporte humanizado via WhatsApp para acolher pacientes que encontram barreiras tecnológicas.</p>
+            </div>
+            <div class="card">
+                <h4>Medicina Preventiva</h4>
+                <p>Programas continuados de acompanhamento para famílias de baixa e média renda, reduzindo custos com deslocamento.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="agendamento">
+        <h3>Simulador de Agendamento Online</h3>
+        <div class="form-agendamento">
+            <form onsubmit="alert('Simulação realizada com sucesso para a banca avaliadora!'); return false;">
+                <div class="form-group">
+                    <label>Tipo de Atendimento</label>
+                    <select required>
+                        <option value="">Selecione...</option>
+                        <option value="online">Teleconsulta (Vídeo)</option>
+                        <option value="presencial">Presencial (Clínica Parceira - Oriximiná)</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Especialidade Desejada</label>
+                    <select required>
+                        <option value="">Selecione...</option>
+                        <option value="medicina">Clínico Geral / Médico da Família</option>
+                        <option value="psicologia">Atendimento Psicológico</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Data Preferencial</label>
+                    <input type="date" required>
+                </div>
+                <button type="submit" class="btn">Simular Agendamento de Consulta</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>Projeto Desenvolvido por: Caroline de Oliveira Nunes</p>
+        <p>Curso de Serviço Social - Foco em Impacto Regional e Saúde Preventiva (Oriximiná-PA)</p>
+    </footer>
+
+</body>
+</html>

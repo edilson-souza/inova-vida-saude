@@ -3,134 +3,144 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inova Vida Saúde - Telemedicina Acadêmica</title>
-    <!-- Vinculação ao arquivo de estilos externo -->
+    <title>Inova Vida Saúde - Protótipo Acadêmico</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- CABEÇALHO -->
     <header>
         <div class="logo">
             <h1>InovaVida<span>Saúde</span></h1>
         </div>
         <nav>
-            <a href="#proposta">Proposta</a>
-            <a href="#precos">Planos Sociais</a>
-            <a href="#agendamento">Simulador</a>
-            <a href="#historico">Área do Paciente</a>
+            <a href="#solucoes">Nossos Serviços</a>
+            <a href="#agendamento">Agendamento</a>
+            <a href="#area-paciente">Área do Paciente</a>
+            <a href="#programas">Programas Preventivos</a>
         </nav>
     </header>
 
-    <!-- HERO SECTION -->
     <section class="hero">
-        <span class="badge-academico">Protótipo Acadêmico - Curso: Serviço Social</span>
+        <span class="badge-academico">Protótipo Acadêmico - Curso: Serviço Social (Caroline de O. Nunes)</span>
         <h2>Saúde Inteligente para um Futuro Melhor</h2>
-        <p>Uma plataforma integrada de saúde digital e atendimento presencial focada em democratizar o acesso médico em Oriximiná e região, reduzindo distâncias e o tempo de espera.</p>
+        <p>Democratizando o acesso à saúde em Oriximiná e região através de um ecossistema integrado, acessível e humano.</p>
     </section>
 
-    <!-- COMO FUNCIONA -->
-    <div class="container" id="proposta">
-        <h3>Como Funciona a Solução</h3>
-        <div class="grid-tres-colunas">
+    <section class="container" id="solucoes">
+        <h3>Nossos Serviços e Recursos</h3>
+        <div class="grid-solucoes">
+            
             <div class="card">
-                <h4>Atendimento Híbrido</h4>
-                <p>Consultas por videochamada direto no celular ou atendimento presencial em clínicas parceiras locais.</p>
+                <div class="icon"><i class="fa-solid fa-video"></i></div>
+                <h4>Teleconsultas Médicas e Psicológicas</h4>
+                <p>Consultas por vídeo de forma rápida, acolhedora e sem barreiras geográficas.</p>
             </div>
-            <div class="card">
-                <h4>Inclusão Digital</h4>
-                <p>Orientação e suporte humanizado via WhatsApp para acolher pacientes que encontram barreiras tecnológicas.</p>
-            </div>
-            <div class="card">
-                <h4>Medicina Preventiva</h4>
-                <p>Programas continuados de acompanhamento para famílias de baixa e média renda, reduzindo custos com deslocamento.</p>
-            </div>
-        </div>
-    </div>
 
-    <!-- TABELA DE PREÇOS / IMPACTO SOCIAL -->
-    <div class="container" id="precos">
-        <h3>Planos de Acesso à Saúde</h3>
-        <div class="grid-tres-colunas">
-            <div class="card plano">
-                <h4>Consulta Avulsa</h4>
-                <p class="preco">R$ 60,00</p>
-                <ul>
-                    <li>Atendimento online ou presencial</li>
-                    <li>Receita e atestados digitais</li>
-                </ul>
+            <div class="card">
+                <div class="icon"><i class="fa-solid fa-calendar-check"></i></div>
+                <h4>Agendamento On-line</h4>
+                <p>Escolha o profissional, o dia e o horário ideal diretamente pela nossa plataforma.</p>
             </div>
-            <div class="card plano destacado">
-                <span class="tag-destaque">Mais Social</span>
-                <h4>Plano Familiar Preventivo</h4>
-                <p class="preco">R$ 45,00 <span>/mês</span></p>
-                <ul>
-                    <li>Até 4 dependentes inclusos</li>
-                    <li>Monitoramento contínuo da saúde</li>
-                    <li>Suporte prioritário via WhatsApp</li>
-                </ul>
-            </div>
-            <div class="card plano">
-                <h4>Parcerias / Empresas</h4>
-                <p class="preco">Sob Consulta</p>
-                <ul>
-                    <li>Saúde ocupacional para comércios</li>
-                    <li>Atendimento para comunidades rurais</li>
-                </ul>
-            </div>
-        </div>
-    </div>
 
-    <!-- SIMULADOR DE AGENDAMENTO -->
-    <div class="container" id="agendamento">
-        <h3>Simulador de Agendamento Online</h3>
+            <div class="card">
+                <div class="icon"><i class="fa-solid fa-hospital"></i></div>
+                <h4>Atendimento Presencial</h4>
+                <p>Estrutura física garantida através de clínicas parceiras locais em Oriximiná.</p>
+            </div>
+
+            <div class="card">
+                <div class="icon"><i class="fa-solid fa-file-prescription"></i></div>
+                <h4>Receitas e Atestados Digitais</h4>
+                <p>Emissão de documentos válidos com assinatura digital direto no celular do paciente.</p>
+            </div>
+
+            <div class="card">
+                <div class="icon"><i class="fa-solid fa-heart-pulse"></i></div>
+                <h4>Acompanhamento Preventivo</h4>
+                <p>Monitoramento contínuo da saúde para evitar o agravamento de doenças crônicas.</p>
+            </div>
+
+            <div class="card">
+                <div class="icon"><i class="fa-solid fa-comments"></i></div>
+                <h4>Orientação via WhatsApp</h4>
+                <p>Suporte e triagem humana para guiar quem possui dificuldades tecnológicas.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="container" id="agendamento">
+        <h3>Simulador de Agendamento On-line</h3>
         <div class="form-agendamento">
-            <form onsubmit="alert('Simulação de agendamento realizada com sucesso para a banca avaliadora!'); return false;">
+            <form id="formConsulta">
                 <div class="form-group">
-                    <label>Tipo de Atendimento</label>
-                    <select required>
+                    <label>Modalidade de Atendimento</label>
+                    <select id="modalidade" required>
                         <option value="">Selecione...</option>
-                        <option value="online">Teleconsulta (Vídeo)</option>
-                        <option value="presencial">Presencial (Clínica Parceira - Oriximiná)</option>
+                        <option value="Online">Teleconsulta Médica / Psicológica</option>
+                        <option value="Presencial">Atendimento Presencial (Clínica Parceira)</option>
                     </select>
                 </div>
                 <div class="form-group">
-                    <label>Especialidade Desejada</label>
+                    <label>Especialidade</label>
                     <select required>
                         <option value="">Selecione...</option>
-                        <option value="medicina">Clínico Geral / Médico da Família</option>
-                        <option value="psicologia">Atendimento Psicológico</option>
+                        <option value="Clinico">Clínico Geral / Saúde da Família</option>
+                        <option value="Psicologia">Acolhimento Psicológico</option>
                     </select>
                 </div>
                 <div class="form-group">
-                    <label>Data Preferencial</label>
+                    <label>Data</label>
                     <input type="date" required>
                 </div>
-                <button type="submit" class="btn">Simular Agendamento de Consulta</button>
+                <button type="submit" class="btn">Confirmar Agendamento</button>
             </form>
         </div>
-    </div>
+    </section>
 
-    <!-- ÁREA DO PACIENTE (HISTÓRICO DIGITAL) -->
-    <div class="container" id="historico" style="text-align: center;">
-        <h3>Histórico Digital do Paciente</h3>
-        <p style="margin-bottom: 20px; color: #666;">Demonstração do painel de controle e prontuário seguro em nuvem exigido pelo projeto.</p>
-        <div style="max-width: 400px; margin: 0 auto; display: flex; gap: 15px;">
-            <button onclick="alert('Acessando Prontuário Criptografado de Teste (Conforme LGPD)...')" class="btn" style="background-color: var(--secondary);">Ver Histórico/Receitas</button>
-            <button onclick="alert('Abrindo Sala de Telemedicina via WebRTC...')" class="btn">Iniciar Teleconsulta</button>
+    <section class="container shadow-box" id="area-paciente">
+        <h3>Histórico Digital e Painel do Paciente</h3>
+        <p class="text-center">Acesso seguro a prontuários em nuvem e ferramentas de telemedicina em conformidade com a LGPD.</p>
+        
+        <div class="botoes-acoes">
+            <button onclick="simularHistorico()" class="btn btn-secondary"><i class="fa-solid fa-folder-open"></i> Ver Histórico Digital</button>
+            <button onclick="abrirTeleconsulta()" class="btn"><i class="fa-solid fa-video"></i> Entrar na Teleconsulta</button>
+            <button onclick="simularDocumento()" class="btn btn-dark"><i class="fa-solid fa-file-medical"></i> Baixar Receita / Atestado</button>
         </div>
-    </div>
 
-    <!-- BOTÃO FLUTUANTE DO WHATSAPP -->
-    <a href="#" class="whatsapp-float" onclick="alert('Simulando abertura do canal de atendimento automatizado via WhatsApp Business da Inova Vida.'); return false;">
-        <span>💬</span>
+        <div id="painelInterativo" class="painel-resultado hidden"></div>
+    </section>
+
+    <section class="container" id="programas">
+        <h3>Programas de Saúde Preventiva</h3>
+        <div class="grid-dois">
+            <div class="card-programa">
+                <i class="fa-solid fa-people-roof"></i>
+                <h4>Para Famílias</h4>
+                <p>Planos mensais acessíveis com check-ups programados, consultas preventivas periódicas e acompanhamento social contínuo para evitar gastos de emergência com deslocamentos.</p>
+            </div>
+            <div class="card-programa">
+                <i class="fa-solid fa-briefcase"></i>
+                <h4>Para Empresas</h4>
+                <p>Soluções corporativas de saúde do trabalhador focadas em pequenos comércios e cooperativas locais, reduzindo o absenteísmo através de consultas on-line imediatas.</p>
+            </div>
+        </div>
+    </section>
+
+    <a href="https://wa.me/5593999998888?text=Olá!%20Gostaria%20de%20receber%20orientação%20de%20saúde%20pela%20Inova%20Vida." 
+       class="whatsapp-float" 
+       target="_blank" 
+       rel="noopener noreferrer" 
+       title="Orientação de Saúde via WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
     </a>
 
-    <!-- RODAPÉ -->
     <footer>
-        <p>Projeto Desenvolvido por: Caroline de Oliveira Nunes</p>
-        <p>Curso de Serviço Social - Foco em Impacto Regional e Saúde Preventiva (Oriximiná-PA)</p>
+        <p>Projeto Desenvolvido por: <strong>Caroline de Oliveira Nunes</strong></p>
+        <p>Curso de Serviço Social | Proposta de Impacto Regional - Oriximiná-PA</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
